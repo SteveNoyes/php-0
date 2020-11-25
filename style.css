@@ -1,0 +1,89 @@
+/*=================================================
+                    global
+ =================================================*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  text-align: center;
+  background-color: darkblue;
+}
+
+/*=================================================
+                    nav
+ =================================================*/
+
+.logo {
+  font-weight: bolder;
+  color: white;
+
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+
+.nav a:hover {
+  color: gray;
+}
+
+/*=================================================
+                    main
+ =================================================*/
+
+.main-wrapper {
+  min-height: calc(100vh - 60px);
+}
+
+
+
+/*=================================================
+                    card
+ =================================================*/
+
+.card-wrap {
+  width: 70%;
+  margin: 2em auto 0;
+  border-top: 5px solid darkblue;
+  padding: 2em 1em;
+  text-align: center;
+  border-radius: 0 0 5px 5px;
+  background-color: #eee;
+  box-shadow: 1px 2px lightgray;
+  transition: all 500ms ease-in-out;
+}
+
+.card-wrap:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 4px 6px lightgray;
+}
+
+.card-wrap img {
+  padding-bottom: 1em;
+}
+
+/*=================================================
+                    footer
+ =================================================*/
+
+.foot {
+  height: 80px;
+  text-align: center;
+  background-color: #eee;
+  padding-top: 1em;
+}
+
+.socials img {
+  border-radius: 50%;
+}
